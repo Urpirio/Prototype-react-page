@@ -1,20 +1,20 @@
+import logo from "../assets/colorful-eagle-head-logo-pop-art-style-eagle-face-sticker-pastel-cute-colors-ai-generated-png.webp"
 
 function Header(){
     return(
-        <section>
-                    <div>
+        <section className="Header-section">
+                    <div className="Logo">
+                        <img src={logo} alt="Logo" />
                         <h1>
-                            Logo1
+                            Logo
                         </h1>
                     </div>
                     <div>
                         <nav>
-                            <ul>
-                                <li>Opcion 1</li>
-                                <li>Opcion 2</li>
-                                <li>Opcion 3</li>
-                                <li>Opcion 4</li>
-                            </ul>
+                            <h3>Home</h3>
+                            <h3>Services</h3>
+                            <h3>Stores Proyects</h3>
+                            <h3>Aboutt Us</h3>
                         </nav>
                     </div>
         </section>

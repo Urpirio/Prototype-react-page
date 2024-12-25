@@ -17,9 +17,9 @@ function Section(props){
 
     return(
         /*Section numero Uno */
-       <section>
-         <section>
-            <div>
+       <section className="Gen-m-Section1">
+         <section className="main-Section1">
+            <div className="main-Section1-div1">
                 <article>
                     <h1>{props.titulo}</h1>
                     <p>{props.Contenido}</p>
@@ -33,28 +33,34 @@ function Section(props){
             </div>
         </section>
        {/*Section Numero Dos */}
+        <section className="main-section2">
         <section>
-            <section>
+        <section className="main-section2-Card">
                 {Cardlist}
             </section>
-            <section>
-                <div>
+            <div className="Color2">
+
+            </div>
+        </section>
+            <section className="main-section2-S2">
+                <div className="main-section2-divCont">
                     <h1>Our Achievements</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in 
-                        ullamcorper orci, quis porttitor mauris. Vestibulum congue et massa
-                         et maximus. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ullamcorper orci, quis porttitor mauris.
+                     Vestibulum congue et massa et maximus.
                          </p>
                 </div>
+                <div className="DivDataList">
                 {DivDatalist}
+                </div>
             </section>
         </section>
         {/*Section Numero Tres */}
-        <section>
+        <section className="main-section3">
             {/*Primera section de la Section Numero Tres */}
-            <section>
+            <section className="main-section3-OurResults" >
 
-                <div>
+                <div className="section3-OurResults" >
                     <div>
                         <h1>Our Results</h1>
                         <p>
@@ -78,11 +84,11 @@ function Section(props){
             </section>
 
             {/*Segunda section dentro de la Section Numero Tres */}
-            <section>
+            <section className="main-section3-info">
                 <div>
                     <img src={Imagen_main3} alt="Imagen de estadisticas" />
                 </div>
-                <div>                
+                <div className="section3-info">                
                     <ul>
                         <li>
                             <h3>Informacion 1</h3>
@@ -99,7 +105,9 @@ function Section(props){
                     </ul>
                 </div>
             </section>
-            <section>
+            
+        </section>
+        <section className="main-section4">
                 <div>
                     <h1>Fusce Venenotis Aliquam?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sunt. Lorem ipsum dolor sit amet.</p>
@@ -108,7 +116,6 @@ function Section(props){
                     <button>Get Started</button>
                 </div>
             </section>
-        </section>
        </section>
     )
 }

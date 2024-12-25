@@ -1,4 +1,4 @@
-
+import "../style/Home.css";
 
 function SectionP1(props){
 

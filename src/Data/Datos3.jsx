@@ -1,6 +1,6 @@
 const DivData = [
     {
-        Numeros: "600",
+        Numeros: "800",
         Name: "Estadistica 1"
     },
     {
